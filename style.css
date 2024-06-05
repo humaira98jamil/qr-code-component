@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  height: 100svh;
+  display: grid;
+  place-items: center;
+  background-color: #b8bec3;
+}
+
+.container {
+  width: 240px;
+  padding: .8rem;
+  border-radius: .5rem;
+  background-color:hsl(0, 0%, 100%);
+}
+
+.container img  {
+  width: 100%;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.box1 {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.box1 h1 {
+  font-size: .8rem;
+}
+
+.box1 p {
+  font-size: .6rem ;
+  line-height: .8rem;
+  text-align: center;
+  color:hsl(220, 15%, 55%);
+}
